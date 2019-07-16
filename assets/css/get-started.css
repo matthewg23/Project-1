@@ -9,8 +9,11 @@
     margin-right: auto;  
 }
 
-.start-btn{
+#button-event,
+#button-restaurant {
     display: inline-block;
     width: 200px;
-    text-align: center;  
+    text-align: center; 
+     
 }
+

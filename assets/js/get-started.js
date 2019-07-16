@@ -1,3 +1,21 @@
+$('#button-event').on('click', function(){
+    console.log('test');
+    $('#button-event').css('background-color', 'blue');
+    $('#button-event').css('color', 'white');
+
+    $('#button-restaurant').css('background-color', '');
+    $('#button-restaurant').css('color', '');
+});
+
+$('#button-restaurant').on('click', function(){
+    console.log('test');
+    $('#button-restaurant').css('background-color', 'blue');
+    $('#button-restaurant').css('color', 'white');
+
+    $('#button-event').css('background-color', '');
+    $('#button-event').css('color', '');
+});
+
 // eventbrite api key
 // api main key 7WVZTR2WHS7TQ6WZ4L
 // public api key WU7KU6HKP6T3INTQLZR2
